@@ -1,0 +1,68 @@
+// See git status
+git status
+
+// Initiallize git
+git init
+
+// Add all files in staging Area
+git add .
+
+// Add specific file in staging Area
+git add index.html
+
+// Remove Specific file from staging Area
+git rm --cached index.html
+
+// Remove all file from staging Area
+git rm -r --cached .
+
+// commits with sensible name
+git commit -m "NotificationFeature-Done-v1"
+
+// See commit history
+git log
+
+// Check modification in files
+git show pasteHashHere
+
+// Check Comparision between local machine files and cloud files.
+git diff
+
+// Setup branch on which you perform commits
+git branch -M master
+
+// Setup repo link on which you associate your commits and branches
+git remote add origin master repository-link
+
+//Push Code on master Branche
+git push origin master
+
+// See branch on cloud
+git branch
+
+// See branch on local machine
+git branch -r
+
+// check all branches
+git branch -a
+
+//Create a new Branch
+git branch Branch-One
+
+// Switch master to any branch
+git checkout Branch-One
+
+// Switch previous Branch
+git checkout -
+
+// Push on any Branch
+git push origin Branch-One
+
+//Create and Switch to current branch
+git checkout -b Branch-Two
+
+//Delete a specific Branch
+git branch -d Branch-Two
+
+// push and rebase
+git pull origin -r BranchName
